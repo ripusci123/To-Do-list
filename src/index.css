@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.container{
+  width: 100%;
+  max-width: 700px;
+  margin-inline:auto;
+}
+
+.new-btn{
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 20px;
+  margin: 10px auto;
+  width: 150px;
+}
+
+.group{
+  margin: 10px auto;
+}
+
+.label{
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+input{
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  font-family: inherit;
+}
+
+.task{
+  display: block;
+  margin: 10px auto;
+  word-break: break-all;
+  width: 100%;
+  padding: 10px;
+  background-color: #eef;
+  border-radius: 10px;
+}
